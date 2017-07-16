@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+// general
+
+
+$font: 'Poppins', sans-serif;
+$font-2: 'Lato', sans-serif;
+$yellow : #f1d204;
+$orange : #f18b6d;
+$mauve : #6f538e;
+$gris : #b6bbbd;
+$gris-fonce: #545454;
+
+body {
+	margin :0;
+	font-family : $font;
+}
+
+.container {
+	width : 1000px;
+}
+
+
+h2 {
+	text-align : center;
+	font-weight : bold;
+	color : $gris-fonce;
+}
+h3 {
+	font-weight : bold;
+	font-size : 1.3em;
+}
+p {
+	color: #b6bbbd;
+}
+
+// header
+
+header {
+	background : url('../images/header.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 664px;
+}
+	//nav
+	.navbar {
+		background-color: transparent;
+	}
+
+	.navbar-default {
+		border-color:transparent;
+	}
+
+	#navbar a {
+		color: white;
+		font-family: $font;
+		padding-top: 40px;
+	}
+
+	//jumbotron
+
+	.jumbotron {
+		background-color: transparent;
+		text-align: center;
+		margin-top: 130px;
+
+		h1, p{
+			color: white;
+		}
+
+		h1 {
+			font-weight: bold;
+			font-family : $font;
+		}
+
+		span {
+			color: $yellow;
+		}
+		p {
+			font-size: 1.1em;
+		}
+		button {
+			width: 200px; height : 50px;
+			border-radius : 1px;
+			background-color: rgba(249, 249 ,249 , 0.2);
+			border: 2px solid white;
+			color: white;
+			margin-right : 20px;
+		}
+
+
+		button:last-child{
+			background-color: $yellow;
+			border : none;
+		}
+	}
+//about
+#about {
+	text-align: center;
+	margin-top : 50px;
+	padding-bottom : 100px;
+}
+//project
+#projet {
+	background: url('https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png');
+	text-align : center;
+	padding-top : 50px;
+
+	p {
+		padding-bottom : 40px;
+	}
+
+}
+
+.col-md-3{
+	padding : 0;
+}
+
+.row {
+	padding : 0; margin : 0}
+
+	img {
+		width : 100%;
+	}
+//services
+#services {
+	text-align : center;
+	margin-top : 70px;
+
+	p {
+		padding-bottom : 50px;
+	}
+
+	.h3-1, .fa-pencil {
+		color: $orange;
+	}
+
+	.h3-2, .fa-code{
+		color: $yellow;
+	}
+
+	.h3-3, .fa-search{
+		color: $mauve;
+	}
+}
+//Latest News
+#news {
+	background-color : #222f36;
+	padding-top :60px;
+	text-align: center;
+	padding-bottom : 70px;
+
+	h2{
+		color: white;
+	}
+
+
+	.p-1 {
+		padding-bottom : 50px;
+	}
+
+	button {
+		width: 140px;
+		background-color: $yellow;
+		color: white;
+		border-radius : 1px;
+		margin-bottom : 60px;
+		i {
+			padding-right : 10px;
+		}
+	}
+
+	.bloc {
+		background-color: white;
+		padding-bottom : 80px;
+
+		h4 {
+			margin: 0;
+			padding-top : 50px;
+			font-weight: bold;
+			color : $gris-fonce;
+			margin-bottom: 50px;
+		}
+
+		h4, p{
+			text-align: left;
+			padding-left: 20px;
+		}
+
+		a {
+			text-align: left;
+		}
+
+		i {
+			padding-right :10px;
+			margin-top: 50px;
+		}
+
+		a,i {
+			color: $yellow;
+		}
+	}
+}
+//footer
+	//footer-top
+	.footer-top {
+		padding-top : 40px;
+		background-color : #292825;
+		h5 {
+			color: white;
+			font-weight: bold;
+		}
+		ul {
+			list-style : none;
+			padding: 0;
+			margin-bottom: 70px;
+			margin-top: 20px;
+		}
+		li {
+			color: $gris;
+			text-align: left;
+			margin-bottom: 10px;
+		}
+
+		li:before{
+			content :">";
+			padding-right : 8px;
+
+		}
+	}
+
+	.footer-bottom {
+		height: 70px;
+		background-color: #242320;
+		text-align: center;
+
+		p{
+			margin-top: 35px;
+		}
+
+		span {
+			color: white;
+		}
+	} 
+
